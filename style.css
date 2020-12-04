@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    margin: 1px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("cofee.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.head{
+    height: 10%;
+    display: flex;
+    background-color: rgba(60, 10, 80, 0.466)
+}
+.head-left{
+    flex-basis: 80%;
+    position: relative;
+    left: 5%;
+}
+.head-icons{
+    left: 5%;
+    bottom: 25%;
+    
+    position: absolute;
+}
+.head-icons ul li{
+    margin-right: 15px;
+    display: inline-block;
+    margin: 15px;
+    background: grey;
+   
+}
+.head-icons ul li i{
+    font-size: 25px;
+    color: white
+    
+}
+.head-middle{
+    flex-basis: 50%;
+    position: relative;
+    left: 5%;
+
+}
+.text1{
+    top:10%;
+    left: 20%;
+    right: 10%;
+    position: absolute;
+}
+.text1 h5{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.head-right{
+    flex-basis: 100%;
+    position: relative;
+}
+.social{
+    
+    right: 1%;
+    bottom: 25%;
+    position: absolute;
+}
+.social ul li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background: grey;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+}
+.social ul li i{
+    color: white;
+}
+.social ul li i:hover{
+    color: blue;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    background-color: rgba(37, 23, 156, 0.349);
+}
+
+.nav-menu{
+    top: 20%;
+    left: 30%;
+    right: 2%;
+    position: relative;
+}
+.nav-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 1px solid yellow;
+    padding-bottom: 5px;
+}
+.logo{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 40px;
+}
+.content{
+    height: 75%;
+    display: flex;
+}
+.content-left{
+    flex-basis: 30%;
+    background: rgb(160, 95, 20);
+
+    position: relative;
+}
+
+
+.content-right{
+    flex-basis:70%;
+    position: relative;
+}
+.text{
+    left: 10%;
+    right: 20%;
+    bottom: 35%;
+    position: absolute;
+}
+.text h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.text p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.footer{
+    height: 200px;
+    background: grey;
+}
+.footer-left{
+    flex-basis: 35%;
+}
+.footer-middle{
+    flex-basis: 35%;
+
+}
+.footer-right{
+    flex-basis: 30%;
+
+}
+.Text{
+    left: 5%;
+    right: 20%;
+    position: absolute;
+}
+.Text h1{
+    color:black;
+    font-size: 30px;
+}
+Text h2{
+    color:black;
+    
+    font-size: 20px;
+}
+.para{
+    left: 35%;
+    right: 40%;
+    position: absolute;
+}
+.para h1{
+    color:black;
+    font-size: 30px;
+}
+
+}
+.para h2{
+    color:black;
+    
+    font-size: 20px;
+}
+.para3{
+    left: 75%;
+    right: 2%;
+    position: absolute;
+
+}
+.para3 h1{
+    color:black;
+    font-size: 30px;
+
+}
+.para3 h2{
+    color: black;
+    
+    font-size: 20px;
+
+}
+.topbar{
+    height: 10%;
+    background-color: grey;
+}
+.textA{
+    left: 5%;
+    right: 20%;
+    position: absolute;
+
+}
+.textA h5{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+
+}
+.paragraph{
+    height: 50%;
+    left: 1%;
+    right: 1%;
+    top: 30%;
+    background-color: rgba(29, 19, 165, 0.795);
+    position: absolute;
+
+}
+.heading h1{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+
+}
+.heading h2{
+    color: white;
+}
+.heading p{
+    color:white;
+   
+    font-size: 20px;
+
+}
